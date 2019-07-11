@@ -1,0 +1,21 @@
+{
+	"name": "sgulp",
+	"version": "1.0.0",
+	"description": "gulping",
+	"main": "index.js",
+	"repository": "https://github.com/ikda/sgulp.git",
+	"author": "<akusiron@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"dev": "gulp dev",
+		"build": "gulp build"
+	},
+	"devDependencies": {
+		"gulp": "^4.0.2"
+	},
+	"dependencies": {
+		"@babel/core": "^7.5.4",
+		"@babel/preset-env": "^7.5.4",
+		"@babel/register": "^7.4.4"
+	}
+}
